@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+}
+
+body {
+    margin: 10px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+    margin: 30px;
+}
+
+section {
+    border: 1px solid black;
+    background-color: grey;
+    /*margin: 1%;*/
+    margin: 1%;
+    margin-top: 35px;
+}
+
+#breakfast .section-title {
+    background-color: sandybrown;
+    
+}
+
+#lunch .section-title {
+    background-color: maroon;
+    color: white;
+}
+
+#dinner .section-title{
+    background-color: blue;
+    color: whitesmoke
+}
+.section-title {
+    font-size: 1.25em;
+    position: relative;
+    float: right;
+    clear: left;
+    padding: 10px;
+    border: 1px solid black;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.section-content {
+    padding: 10px;
+    clear: right;
+}
+
+/*desktop*/
+@media (min-width: 992px){
+    .col-ds-4 {
+        float: left;
+    }
+    .col-ds-4 {
+        width: 31.33%;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+    .col-tb-2 {
+        float: left;
+    }
+    .col-tb-2 {
+        width: 48%;
+    }
+    #dinner {
+        width: 98%;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 767px){
+    .col-xs-12 {
+        float: left;
+    }
+    .col-xs-12 {
+        width: 98%;
+    }
+}
