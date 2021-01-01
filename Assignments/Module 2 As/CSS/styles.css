@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 }
 
 body {
@@ -37,13 +35,12 @@ section {
 
 #dinner .section-title{
     background-color: blue;
-    color: whitesmoke
+    color: whitesmoke;
 }
 .section-title {
     font-size: 1.25em;
-    position: relative;
+    /*position: relative;*/
     float: right;
-    clear: left;
     padding: 10px;
     border: 1px solid black;
     border-top: 0px;
