@@ -1,0 +1,71 @@
+
+/* header */
+* {
+    box-sizing: border-box;
+}
+nav {
+     background-color: grey;
+}
+
+.navbar-toggler {
+    color:black;
+    border: 1px solid black !important;
+}
+button.navbar-toggler {
+    border-color: rgba(0,0,0,.9);
+}
+
+.navbar-nav {
+    border: 1px solid black;
+}
+.nav-item {
+    
+    font-size: 24px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+li>a:link, li>a:visited {
+    text-decoration: none;
+    color: black;
+}
+.nav-item a:hover {
+    color: orange;
+    text-decoration: none;
+}
+/* End of header */
+
+/*Content*/
+#content {
+    margin: 30px;
+}
+#menu {
+    color: orange;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* .container {
+    margin: 30px;
+} */
+
+h4 {
+    text-align: center;
+}
+.conbox {
+    
+    border: 1px solid black;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.644);
+    margin-bottom: 30px;
+    padding: 25px;
+    /* float: right; */
+}
+
+/*Mobile*/
+@media (min-width: 576px) {
+    .navbar-toggler, .collapse {
+        display: none;
+    }
+}
